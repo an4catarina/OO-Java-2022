@@ -18,9 +18,8 @@ public class Questao4 {
 		} while (num > 0);
 		
 		System.out.println(summ);
-
+		entrada.close();
 	}
-
 }
 
 //Construa um programa que imprime a soma de todos os valores positivos digitados pelo usu´ario até que ele digite um número negativo.

@@ -8,6 +8,7 @@ public class Questao5 {
 		Scanner ler = new Scanner(System.in);
 		System.out.print("Digite o numero:");
 		num = ler.nextInt();
+		ler.close();
 		if(num % 2 == 0) {
 			System.out.print("true");
 		} else {

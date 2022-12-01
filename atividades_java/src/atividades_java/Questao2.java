@@ -13,6 +13,7 @@ public class Questao2 {
         mes = ler.nextInt();
         System.out.print("Digite o ano:\n");
         ano = ler.nextInt();
+        ler.close();
         if(mes >= 1 && mes <= 12) {
         // Data Válida
             if(mes == 1 || mes == 3 || mes == 5 || mes == 7 || mes == 8 || mes == 10|| mes == 12) {

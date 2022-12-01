@@ -14,6 +14,7 @@ public class Questao3 {
 		num1 = ler.nextInt();
 		System.out.print("Entre com o segundo número:\n");
 		num2 = ler.nextInt();
+		ler.close();
 		
 		switch(operacao) {
 			case "+":

@@ -9,6 +9,7 @@ public class Questao6 {
 		int num1, num2, num3, num4, num5;
 		Scanner ler = new Scanner(System.in);
 		ArrayList<Integer> nums = new ArrayList<Integer>();
+		ler.close();
 		
 		System.out.println("Entre com o primeiro numero:");
 		num1 = ler.nextInt();

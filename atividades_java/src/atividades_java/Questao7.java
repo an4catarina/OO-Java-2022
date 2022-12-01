@@ -8,6 +8,7 @@ public class Questao7 {
 		Scanner ler = new Scanner(System.in);
 		System.out.println("Digite o caracter a ser verificado:");
 		carac = ler.nextLine();
+		ler.close();
 		
 		if (carac.matches("[0-9]*")) {
 			System.out.print("true");
