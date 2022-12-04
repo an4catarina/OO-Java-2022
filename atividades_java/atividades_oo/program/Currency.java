@@ -13,7 +13,6 @@ public class Currency {
 		double dollar = sc.nextDouble();
 		System.out.print("How many dollars will be bought? ");
 		double amount = sc.nextDouble();
-//		double converter = CurrencyConverter.converter(dollar, amount);
 		System.out.printf("Amount to be paid in reais: %.2f", CurrencyConverter.converter(dollar, amount));
 		
 		
