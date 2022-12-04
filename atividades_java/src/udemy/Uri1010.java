@@ -15,6 +15,7 @@ public class Uri1010 {
 		cod2 = entrada.nextInt();
 		num2 = entrada.nextInt();
 		val2 = entrada.nextDouble();
+		cod1 = cod1 + cod2;
 		
 		a = num1 * val1;
 		b = num2 * val2;

@@ -23,7 +23,6 @@ public class Uri1012 {
 		System.out.printf("QUADRADO: %.3f\n", QUADRADO);
 		System.out.printf("RETANGULO: %.3f\n", RETANGULO);
 		entrada.close();
-
 	}
 
 }
